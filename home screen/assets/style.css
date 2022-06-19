@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+body{
+    display: flex;
+}
+
+
+/* FIRST PART */
+.first-side{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 69, 182);
+}
+
+.box{
+    text-align: center;
+}
+
+.box h1, p{
+    padding: 4px;
+}
+
+.box p{
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 20px;
+    background: rgb(127, 69, 182);
+    transition: 1s;
+}
+
+button:hover{
+    background: rgb(107, 55, 175);
+}
+
+
+/* SECOND PART */ 
+.second-side{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img{
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.icons{
+    display: flex;
+}
+
+p{
+    font-size: 17px;
+    color: rgb(127, 69, 182);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input[type=text]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    background: rgb(243, 241, 241);
+    padding-left: 25px;
+    border: none;
+    outline: none;
+}
+
+.inputs input[type=email]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    background: rgb(243, 241, 241);
+    padding-left: 25px;
+    border: none;
+    outline: none;
+}
+
+
+.inputs input[type=password]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    background: rgb(243, 241, 241);
+    padding-left: 25px;
+    border: none;
+    outline: none;
+}
+
+
+#inptext{
+    background-image: url('/images/user.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+     
+}
+
+#inpemail{
+    background-image: url('/images/email.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+     
+}
+
+#inppass{
+    background-image: url('/images/senha.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+     
+}
+
+/*DARK MODE*/
+
+#sol{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.first-side.dark-mode{
+    background-color: rgb(63, 18, 18);
+}
+
+button.dark-mode{
+    background-color: black;
+    color: azure;
+}
+
+button.dark-mode:hover{
+    background-color: rgb(81, 31, 31);
+}
+
+#first-h1.dark-mode{
+    color: azure;
+}
+
+#p1.dark-mode{
+    color: azure;
+}
+
+#p2.dark-mode{
+    color: azure;
+}
+
+#second-h1.dark-mode{
+    color: azure;
+}
+
+.second-side.dark-mode{
+    background-color: rgb(81, 31, 31);
+}
+
+#p3.dark-mode{
+    color: azure;
+}
+
+#second-button.dark-mode{
+    color: azure;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
