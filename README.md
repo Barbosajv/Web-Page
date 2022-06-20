@@ -18,12 +18,6 @@
 		</ul>
 		<h4 style="font-style: italic;">Responsive Gif</h4>
 		<img src="https://cdn.discordapp.com/attachments/953345636533698580/988264782547255337/site.gif">
-		<h4>Next Updates:</h4>
-		<ul>
-			<li>Web page</li>
-			<li>Login Screen</li>
-			<li>Back-end implementation</li>
-		</ul>
 		<h4 style="text-align:center;">Made by: João Vitor Santos Barbosa</h2>
 	</body>
 </html>
