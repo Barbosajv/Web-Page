@@ -21,6 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1s;
 }
 
 .icons img{
@@ -41,7 +42,7 @@ h1{
 }
 
 p{
-    color: rgb(136, 117, 154);
+    color: rgb(92, 46, 142);
     font-size: 15px;
     text-align: center;
 }
@@ -116,10 +117,6 @@ input[type=button]:hover{
 
 /* DARK-MODE */
 
-body.dark-mode{
-    background-color: black;
-}
-
 #lua{
     width: 30px;
     height: 30px;
@@ -170,10 +167,10 @@ body.dark-mode{
     align-items: center;
     justify-content: center;
     background-color: rgb(81, 31, 31);
+    transition: 1s;
 }
 
 h1.dark-mode{
-    color: rgb(127, 69, 182);
     text-align: center;
     color: azure;
 }
@@ -182,6 +179,20 @@ p.dark-mode{
     color: azure;
     font-size: 15px;
     text-align: center;
+}
+
+a.dark-mode{
+    color: azure;
+}
+
+input[type=button].dark-mode{
+    background-color: black;
+    color: azure;
+}
+
+input[type=button].dark-mode:hover{
+    background-color: rgb(81, 31, 31);
+    color: azure;
 }
 
 

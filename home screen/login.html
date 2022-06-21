@@ -9,10 +9,10 @@
 </head>
 <body>
     <main class="principal">
-        <img src="/images/lua.png" id="lua" alt="lua">
-        <img src="/images/sol.png" id="sol" alt="sol">
+        <img src="/images/lua.png" id="lua" alt="lua" onclick="changeMode">
+        <img src="/images/sol.png" id="sol" alt="sol" onclick="changeMode">
         <div class="box">
-            <h1>Sign In To Start</h1>
+            <h1 id="fh1">Sign In To Start</h1>
             <div class="icons">
                 <div class="icon1"><a href="https://github.com/"><img src="images/github.png" alt="Github"></a></div>
                 <div class="icon2"><a href="https://www.google.com.br/"><img src="images/google.png" alt="Google"></a></div>
@@ -20,14 +20,15 @@
                 <div class="icon4"><a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin"></a>
                 </div>
             </div><!--icons-->
-            <p>Or use your email account:</p>
+            <p id="p1">Or use your email account:</p>
             <div class="inputs">
                 <input type="email" name="User" id="inpemail" placeholder="Email" required>
                 <input type="password" name="Password" id="inppass" placeholder="Password" required>
             </div><!--inputs-->
-            <a href="">Forgot your password?</a>
-            <input type="button" value="SING UP" id="second-btn">
+            <a href="" id="a">Forgot your password?</a>
+            <input type="button" value="SIGN UP" id="btn">
         </div><!--box-->
     </main><!--principal-->
+    <script src="assets/login.js"></script>
 </body>
 </html>
