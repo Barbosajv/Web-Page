@@ -21,10 +21,6 @@
 		<img src="https://cdn.discordapp.com/attachments/953345636533698580/988264782547255337/site.gif">
 		<h4 style="font-style: italic;">Login Page Gif</h4>
 		<img src="https://cdn.discordapp.com/attachments/953345636533698580/988916287268847716/login.gif">
-		<h4 style="font-style: italic;">Next Updates</h4>
-		<ul>
-			<li>Web Page</li>
-		</ul>
 		<h4 style="font-style: italic;">Last Updates</h4>
 		<ul>
 			<li>Login page added</li>
